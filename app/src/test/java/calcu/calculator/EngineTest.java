@@ -24,14 +24,32 @@ public class EngineTest {
 
     @Test
     public void sub() throws Exception {
+        double n1 = 5.5;
+        double n2 = 3;
+        double expected = 2.5;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
     }
 
     @Test
     public void mul() throws Exception {
+        double n1 = 2;
+        double n2 = 3;
+        double expected = 6;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
     }
 
     @Test
     public void div() throws Exception {
+        double n1=64;
+        int n2 = 8;
+        double expected = 8.00000;
+        double actual = Engine.Div(n1,n2);
+
+        assertEquals(expected, actual,uncertainity);
     }
 
 }
