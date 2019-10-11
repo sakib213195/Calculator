@@ -9,18 +9,23 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+
     <TextView
         android:id="@+id/mainscreen"
         android:layout_width="fill_parent"
-        android:layout_height="62dp"
+        android:layout_height="55dp"
         android:textAppearance= "?android:textAppearanceLarge"
         android:layout_margin="0dp"
-        android:textSize="14sp"
+        android:textSize="42sp"
         android:gravity="end"
         android:maxLines="2"
         android:maxLength="15"
         android:background="#203f51"
         android:textColor="#F8F8E8"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorLink="#7f99b1"
         />
 
     <Button
@@ -167,7 +172,7 @@
             android:maxWidth="90dp" />
 
         <Button
-            android:id="@+id/button."
+            android:id="@+id/buttondot"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_below="@+id/button3"
@@ -224,8 +229,8 @@
             android:layout_height="80dp"
             android:layout_below="@+id/buttonminus"
             android:text="+"
-            android:layout_toRightOf="@+id/button."
-            android:layout_toEndOf="@+id/button."
+            android:layout_toRightOf="@+id/buttondot"
+            android:layout_toEndOf="@+id/buttondot"
             android:textColor="#ffffff"
             android:textSize="30sp"
             android:background="#f6a201"
@@ -234,13 +239,27 @@
         <Button
             android:id="@+id/buttonequal"
             android:layout_width="match_parent"
-            android:layout_height="1000dp"
+            android:layout_height="47dp"
             android:layout_below="@+id/buttonC"
             android:text="="
             android:textColor="#ffffff"
             android:textSize="30sp"
             android:background="#203f51"
             android:maxWidth="90dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:layout_below="@+id/buttonequal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#203f51"
+            android:text="© All rights reserved || powered by Sakib, 2019"
+            android:textAlignment="center"
+            />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
