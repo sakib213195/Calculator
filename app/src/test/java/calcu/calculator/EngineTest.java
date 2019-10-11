@@ -52,4 +52,77 @@ public class EngineTest {
         assertEquals(expected, actual,uncertainity);
     }
 
+                        // Input Space Partitioning//
+
+    // inputs values will as follows:
+    //both positive
+    //both negative
+    //positive and negative
+    //positive and zero
+    //negative and zero
+    //zero and zero
+
+    @Test
+    public void addbothpos() {
+        double n1 = 5;
+        double n2 = 5;
+        double expected = 10;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void addbothneg(){
+        double n1 = -6;
+        double n2 = -10;
+        double expected = -16;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void addposneg(){
+        double n1 = 5.65;
+        double n2 = -2.5;
+        double expected = 3.15;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+
+    }
+
+    @Test
+    public void addposzero() {
+        double n1=55.656563;
+        double n2 = 0;
+        double expected = 55.656563;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void addnegzero() {
+        double n1 = -55.656565;
+        double n2 = 0;
+        double expected = -55.656565;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public  void addzerozero() {
+        double n1 = 0;
+        double n2 = 0.0000000000000000;
+        double expected = 0;
+        double actual = Engine.Add(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+
+
 }
