@@ -123,6 +123,67 @@ public class EngineTest {
         assertEquals(expected,actual,uncertainity);
     }
 
+    @Test
+    public void subbothpos() {
+        double n1 = 5;
+        double n2 = 4;
+        double expected = 1;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void subbothneg(){
+        double n1 = -6;
+        double n2 = -15;
+        double expected = 9;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void subposneg(){
+        double n1 = 5.65;
+        double n2 = -2.5;
+        double expected = 8.15;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+
+    }
+
+    @Test
+    public void subposzero() {
+        double n1=9.62;
+        double n2 = 0;
+        double expected = 9.62;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void subnegzero() {
+        double n1 = 0;
+        double n2 = -0;
+        double expected = 0;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public  void subzerozero() {
+        double n1 = 0;
+        double n2 = 0.0000000000000000;
+        double expected = 0;
+        double actual = Engine.Sub(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
 
 
 }
