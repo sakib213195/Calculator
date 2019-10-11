@@ -184,6 +184,68 @@ public class EngineTest {
         assertEquals(expected,actual,uncertainity);
     }
 
+    @Test
+    public void mulbothpos() {
+        double n1 = 5;
+        double n2 = 5;
+        double expected = 25;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void mulbothneg(){
+        double n1 = -6;
+        double n2 = -15;
+        double expected = 90;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void mulposneg(){
+        double n1 = 8.2;
+        double n2 = -2.0;
+        double expected = -16.40;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+
+    }
+
+    @Test
+    public void mulposzero() {
+        double n1=55000;
+        double n2 = 0;
+        double expected = 0.00;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void mulnegzero() {
+        double n1 = 0;
+        double n2 = -0;
+        double expected = 0;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public  void mulzerozero() {
+        double n1 = 0;
+        double n2 = 0.0000000000000000;
+        double expected = 0;
+        double actual = Engine.Mul(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+
 
 
 }
