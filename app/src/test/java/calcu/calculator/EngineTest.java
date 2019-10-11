@@ -245,6 +245,68 @@ public class EngineTest {
         assertEquals(expected,actual,uncertainity);
     }
 
+    @Test
+    public void divbothpos() {
+        double n1 = 6.0;
+        double n2 = 3.0;
+        double expected = 2.0;
+        double actual = Engine.Div(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void divbothneg(){
+        double n1 = -98;
+        double n2 = -2;
+        double expected = 49;
+        double actual = Engine.Div(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test
+    public void divposneg(){
+        double n1 = 5.65;
+        double n2 = -2.5;
+        double expected = -2.26;
+        double actual = Engine.Div(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+
+    }
+
+    @Test(expected=java.lang.ArithmeticException.class)
+    public void divposzero() throws ArithmeticException
+    {
+        double n1 = 87;
+        double n2 = 0;
+
+        Engine.Div(n1, n2);
+    }
+
+
+
+    @Test
+    public void divnegzero() {
+        double n1 = -0;
+        double n2 = 5;
+        double expected = 0;
+        double actual = Engine.Div(n1,n2);
+
+        assertEquals(expected,actual,uncertainity);
+    }
+
+    @Test(expected=java.lang.ArithmeticException.class)
+    public  void divzerozero() throws ArithmeticException {
+        double n1 = 0;
+        double n2 = 0.0000000000000000;
+
+         Engine.Div(n1,n2);
+
+    }
+
+
 
 
 
