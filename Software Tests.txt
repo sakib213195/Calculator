@@ -8,3 +8,5 @@ Types of Testing done:
 
 4. UI Testing with Espresso
 
+5. Firebase Robo Testing
+
