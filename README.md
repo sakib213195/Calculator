@@ -11,3 +11,5 @@ Types of Testing done:
 3. Integration Testing
 
 4. UI Testing with Espresso
+
+5. Firebase Robo Testing
