@@ -257,7 +257,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:background="#203f51"
-            android:text="© All rights reserved || powered by Sakib, 2019"
+            android:text="© All rights reserved || Powered by Sakib, 2019-2020"
             android:textAlignment="center"
             />
 
