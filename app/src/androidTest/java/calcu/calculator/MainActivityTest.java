@@ -124,6 +124,34 @@ public class MainActivityTest {
 
     }
 
+    @Test
+    public void DivisionIntegrationTest() {
+
+        ViewInteraction appCompatButton5 = onView(
+                allOf(withId(R.id.button5), withText("5"), isDisplayed()));
+        appCompatButton5.perform(click());
+
+        ViewInteraction appCompatButton0 = onView(
+                allOf(withId(R.id.button0), withText("0"), isDisplayed()));
+        appCompatButton0.perform(click());
+
+
+        ViewInteraction appCompatButtonAdd = onView(
+                allOf(withId(R.id.buttondivide), withText("/"), isDisplayed()));
+        appCompatButtonAdd.perform(click());
+
+
+
+        ViewInteraction appCompatButton4 = onView(
+                allOf(withId(R.id.button4), withText("4"), isDisplayed()));
+        appCompatButton4.perform(click());
+
+        ViewInteraction appCompatButtonEqual = onView(
+                allOf(withId(R.id.buttonequal), withText("="), isDisplayed()));
+        appCompatButtonEqual.perform(click());
+
+    }
+
 
 
 
