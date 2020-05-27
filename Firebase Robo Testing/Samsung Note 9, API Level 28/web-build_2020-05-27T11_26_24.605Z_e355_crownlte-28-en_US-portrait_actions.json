@@ -1,0 +1,1050 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 2.894,
+    "endTimeSeconds": 4.728,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 5.534,
+    "endTimeSeconds": 5.899,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.4",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button4",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "4"
+      }
+    }
+  }, {
+    "sequence": 2,
+    "sourceScreenId": "2",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 6.571,
+    "endTimeSeconds": 6.8870000000000005,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.14",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonmultiply",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "X"
+      }
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "1",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 7.206,
+    "endTimeSeconds": 7.524,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.7",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button1",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "1"
+      }
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "3",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 8.075,
+    "endTimeSeconds": 8.398,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.14",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonmultiply",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "X"
+      }
+    }
+  }, {
+    "sequence": 5,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 8.648,
+    "endTimeSeconds": 9.057,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.14",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonmultiply",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "X"
+      }
+    }
+  }, {
+    "sequence": 6,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 9.23,
+    "endTimeSeconds": 9.583,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.15",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonminus",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "-"
+      }
+    }
+  }, {
+    "sequence": 7,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 9.757,
+    "endTimeSeconds": 10.034,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "resourceName": "calcu.calculator:id/mainscreen",
+        "className": "android.support.v7.widget.AppCompatTextView",
+        "androidClassName": "android.widget.TextView"
+      }
+    }
+  }, {
+    "sequence": 8,
+    "sourceScreenId": "1",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 10.189,
+    "endTimeSeconds": 10.477,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 9,
+    "sourceScreenId": "4",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 10.978,
+    "endTimeSeconds": 11.284,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.13",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttondivide",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "/"
+      }
+    }
+  }, {
+    "sequence": 10,
+    "sourceScreenId": "1",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 11.52,
+    "endTimeSeconds": 11.85,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.1",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button7",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "7"
+      }
+    }
+  }, {
+    "sequence": 11,
+    "sourceScreenId": "5",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 12.415,
+    "endTimeSeconds": 12.698,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.10",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonC",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "C"
+      }
+    }
+  }, {
+    "sequence": 12,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 12.897,
+    "endTimeSeconds": 13.257,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.13",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttondivide",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "/"
+      }
+    }
+  }, {
+    "sequence": 13,
+    "sourceScreenId": "1",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 13.411,
+    "endTimeSeconds": 13.716,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.3",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button9",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "9"
+      }
+    }
+  }, {
+    "sequence": 14,
+    "sourceScreenId": "6",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 14.205,
+    "endTimeSeconds": 14.455,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "resourceName": "calcu.calculator:id/mainscreen",
+        "className": "android.support.v7.widget.AppCompatTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "9"
+      }
+    }
+  }, {
+    "sequence": 15,
+    "sourceScreenId": "6",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 14.592,
+    "endTimeSeconds": 14.885,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.7",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button1",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "1"
+      }
+    }
+  }, {
+    "sequence": 16,
+    "sourceScreenId": "7",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 15.372,
+    "endTimeSeconds": 15.652,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.15",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonminus",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "-"
+      }
+    }
+  }, {
+    "sequence": 17,
+    "sourceScreenId": "1",
+    "destinationScreenId": "8",
+    "startTimeSeconds": 15.841,
+    "endTimeSeconds": 16.156,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.9",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button3",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "3"
+      }
+    }
+  }, {
+    "sequence": 18,
+    "sourceScreenId": "8",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 16.655,
+    "endTimeSeconds": 16.943,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.9",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button3",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "3"
+      }
+    }
+  }, {
+    "sequence": 19,
+    "sourceScreenId": "9",
+    "destinationScreenId": "10",
+    "startTimeSeconds": 17.408,
+    "endTimeSeconds": 17.706,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 20,
+    "sourceScreenId": "10",
+    "destinationScreenId": "10",
+    "startTimeSeconds": 18.233,
+    "endTimeSeconds": 18.484,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "resourceName": "calcu.calculator:id/mainscreen",
+        "className": "android.support.v7.widget.AppCompatTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "336"
+      }
+    }
+  }, {
+    "sequence": 21,
+    "sourceScreenId": "10",
+    "destinationScreenId": "11",
+    "startTimeSeconds": 18.603,
+    "endTimeSeconds": 18.897,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 22,
+    "sourceScreenId": "11",
+    "destinationScreenId": "11",
+    "startTimeSeconds": 19.466,
+    "endTimeSeconds": 19.745,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 23,
+    "sourceScreenId": "11",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 19.912,
+    "endTimeSeconds": 20.229,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.14",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonmultiply",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "X"
+      }
+    }
+  }, {
+    "sequence": 24,
+    "sourceScreenId": "1",
+    "destinationScreenId": "12",
+    "startTimeSeconds": 20.411,
+    "endTimeSeconds": 20.732,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button5",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "5"
+      }
+    }
+  }, {
+    "sequence": 25,
+    "sourceScreenId": "12",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 21.235,
+    "endTimeSeconds": 21.531,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.15",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonminus",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "-"
+      }
+    }
+  }, {
+    "sequence": 26,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 21.677,
+    "endTimeSeconds": 22.017,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.16",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonplus",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "+"
+      }
+    }
+  }, {
+    "sequence": 27,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 22.172,
+    "endTimeSeconds": 22.502,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.10",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonC",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "C"
+      }
+    }
+  }, {
+    "sequence": 28,
+    "sourceScreenId": "1",
+    "destinationScreenId": "13",
+    "startTimeSeconds": 22.647,
+    "endTimeSeconds": 22.97,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.12",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttondot",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "."
+      }
+    }
+  }, {
+    "sequence": 29,
+    "sourceScreenId": "13",
+    "destinationScreenId": "14",
+    "startTimeSeconds": 23.498,
+    "endTimeSeconds": 23.786,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.7",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button1",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "1"
+      }
+    }
+  }, {
+    "sequence": 30,
+    "sourceScreenId": "14",
+    "destinationScreenId": "15",
+    "startTimeSeconds": 24.253,
+    "endTimeSeconds": 24.538,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 31,
+    "sourceScreenId": "15",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 25.02,
+    "endTimeSeconds": 25.307,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 32,
+    "sourceScreenId": "16",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 25.826,
+    "endTimeSeconds": 26.087,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "resourceName": "calcu.calculator:id/mainscreen",
+        "className": "android.support.v7.widget.AppCompatTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "0.56"
+      }
+    }
+  }, {
+    "sequence": 33,
+    "sourceScreenId": "16",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 26.23,
+    "endTimeSeconds": 26.524,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.15",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonminus",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "-"
+      }
+    }
+  }, {
+    "sequence": 34,
+    "sourceScreenId": "1",
+    "destinationScreenId": "17",
+    "startTimeSeconds": 26.668,
+    "endTimeSeconds": 27.004,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.8",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button2",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "2"
+      }
+    }
+  }, {
+    "sequence": 35,
+    "sourceScreenId": "17",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 27.477,
+    "endTimeSeconds": 27.758,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.14",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonmultiply",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "X"
+      }
+    }
+  }, {
+    "sequence": 36,
+    "sourceScreenId": "1",
+    "destinationScreenId": "18",
+    "startTimeSeconds": 27.873,
+    "endTimeSeconds": 28.161,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.11",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button0",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "0"
+      }
+    }
+  }, {
+    "sequence": 37,
+    "sourceScreenId": "18",
+    "destinationScreenId": "19",
+    "startTimeSeconds": 28.602,
+    "endTimeSeconds": 28.899,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.7",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button1",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "1"
+      }
+    }
+  }, {
+    "sequence": 38,
+    "sourceScreenId": "19",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 29.308,
+    "endTimeSeconds": 29.595,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.10",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonC",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "C"
+      }
+    }
+  }, {
+    "sequence": 39,
+    "sourceScreenId": "1",
+    "destinationScreenId": "20",
+    "startTimeSeconds": 29.705,
+    "endTimeSeconds": 29.995,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.2",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button8",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "8"
+      }
+    }
+  }, {
+    "sequence": 40,
+    "sourceScreenId": "20",
+    "destinationScreenId": "21",
+    "startTimeSeconds": 30.417,
+    "endTimeSeconds": 30.699,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button5",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "5"
+      }
+    }
+  }, {
+    "sequence": 41,
+    "sourceScreenId": "21",
+    "destinationScreenId": "22",
+    "startTimeSeconds": 31.102,
+    "endTimeSeconds": 31.382,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 42,
+    "sourceScreenId": "22",
+    "destinationScreenId": "23",
+    "startTimeSeconds": 31.807,
+    "endTimeSeconds": 32.089,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.1",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button7",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "7"
+      }
+    }
+  }, {
+    "sequence": 43,
+    "sourceScreenId": "23",
+    "destinationScreenId": "24",
+    "startTimeSeconds": 32.514,
+    "endTimeSeconds": 32.802,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.7",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button1",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "1"
+      }
+    }
+  }, {
+    "sequence": 44,
+    "sourceScreenId": "24",
+    "destinationScreenId": "25",
+    "startTimeSeconds": 33.238,
+    "endTimeSeconds": 33.518,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.9",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button3",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "3"
+      }
+    }
+  }, {
+    "sequence": 45,
+    "sourceScreenId": "25",
+    "destinationScreenId": "26",
+    "startTimeSeconds": 33.939,
+    "endTimeSeconds": 34.222,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.2",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button8",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "8"
+      }
+    }
+  }, {
+    "sequence": 46,
+    "sourceScreenId": "26",
+    "destinationScreenId": "26",
+    "startTimeSeconds": 34.627,
+    "endTimeSeconds": 34.906,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 47,
+    "sourceScreenId": "26",
+    "destinationScreenId": "27",
+    "startTimeSeconds": 35.049,
+    "endTimeSeconds": 35.341,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.9",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button3",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "3"
+      }
+    }
+  }, {
+    "sequence": 48,
+    "sourceScreenId": "27",
+    "destinationScreenId": "27",
+    "startTimeSeconds": 35.763,
+    "endTimeSeconds": 36.04,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 49,
+    "sourceScreenId": "27",
+    "destinationScreenId": "28",
+    "startTimeSeconds": 36.156,
+    "endTimeSeconds": 36.444,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.11",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button0",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "0"
+      }
+    }
+  }, {
+    "sequence": 50,
+    "sourceScreenId": "28",
+    "destinationScreenId": "28",
+    "startTimeSeconds": 36.852,
+    "endTimeSeconds": 37.103,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "resourceName": "calcu.calculator:id/mainscreen",
+        "className": "android.support.v7.widget.AppCompatTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "170.0713830"
+      }
+    }
+  }, {
+    "sequence": 51,
+    "sourceScreenId": "28",
+    "destinationScreenId": "29",
+    "startTimeSeconds": 37.222,
+    "endTimeSeconds": 37.512,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button5",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "5"
+      }
+    }
+  }, {
+    "sequence": 52,
+    "sourceScreenId": "29",
+    "destinationScreenId": "29",
+    "startTimeSeconds": 37.955,
+    "endTimeSeconds": 38.228,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }, {
+    "sequence": 53,
+    "sourceScreenId": "29",
+    "destinationScreenId": "30",
+    "startTimeSeconds": 38.35,
+    "endTimeSeconds": 38.628,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 54,
+    "sourceScreenId": "30",
+    "destinationScreenId": "31",
+    "startTimeSeconds": 39.038,
+    "endTimeSeconds": 39.316,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.6",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button6",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "6"
+      }
+    }
+  }, {
+    "sequence": 55,
+    "sourceScreenId": "31",
+    "destinationScreenId": "32",
+    "startTimeSeconds": 39.725,
+    "endTimeSeconds": 40.016,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button5",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "5"
+      }
+    }
+  }, {
+    "sequence": 56,
+    "sourceScreenId": "32",
+    "destinationScreenId": "32",
+    "startTimeSeconds": 40.432,
+    "endTimeSeconds": 40.719,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.11",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/button0",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "0"
+      }
+    }
+  }, {
+    "sequence": 57,
+    "sourceScreenId": "32",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 40.834,
+    "endTimeSeconds": 41.122,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.10",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonC",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "C"
+      }
+    }
+  }, {
+    "sequence": 58,
+    "sourceScreenId": "1",
+    "destinationScreenId": "33",
+    "startTimeSeconds": 41.233,
+    "endTimeSeconds": 42.299,
+    "executionResult": "TERMINATED",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.0.0.0.17",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "calcu.calculator:id/buttonequal",
+        "className": "android.support.v7.widget.AppCompatButton",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "\u003d"
+      }
+    }
+  }]
+}
