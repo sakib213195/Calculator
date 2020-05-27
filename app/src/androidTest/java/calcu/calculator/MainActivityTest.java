@@ -26,43 +26,104 @@ public class MainActivityTest {
     @Rule
     public ActivityTestRule<MainActivity> mainActivityActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
+
     @Test
     public void AdditionIntegrationTest() {
 
+        ViewInteraction appCompatButton9 = onView(
+                allOf(withId(R.id.button9), withText("9"), isDisplayed()));
+        appCompatButton9.perform(click());
 
-        ViewInteraction appCompatButton4 = onView(
-                allOf(withId(R.id.button4), withText("4"), isDisplayed()));
-        appCompatButton4.perform(click());
-
-        ViewInteraction appCompatButton5 = onView(
-                allOf(withId(R.id.button5), withText("5"), isDisplayed()));
-        appCompatButton5.perform(click());
-
-        ViewInteraction appCompatButton8 = onView(
-                allOf(withId(R.id.button8), withText("8"), isDisplayed()));
-        appCompatButton8.perform(click());
-
-
+        ViewInteraction appCompatButton7 = onView(
+                allOf(withId(R.id.button7), withText("7"), isDisplayed()));
+        appCompatButton7.perform(click());
 
 
         ViewInteraction appCompatButtonAdd = onView(
                 allOf(withId(R.id.buttonplus), withText("+"), isDisplayed()));
         appCompatButtonAdd.perform(click());
 
-        ViewInteraction appCompatButton1 = onView(
-                allOf(withId(R.id.button1), withText("1"), isDisplayed()));
-        appCompatButton1.perform(click());
+        ViewInteraction appCompatButton3 = onView(
+                allOf(withId(R.id.button3), withText("3"), isDisplayed()));
+        appCompatButton3.perform(click());
+
+
+        ViewInteraction appCompatButtondot = onView(
+                allOf(withId(R.id.buttondot), withText("."), isDisplayed()));
+        appCompatButtondot.perform(click());
+
+        ViewInteraction appCompatButton0 = onView(
+                allOf(withId(R.id.button0), withText("0"), isDisplayed()));
+        appCompatButton0.perform(click());
+
+        ViewInteraction appCompatButtonEqual = onView(
+                allOf(withId(R.id.buttonequal), withText("="), isDisplayed()));
+        appCompatButtonEqual.perform(click());
+    }
+
+
+
+        @Test
+    public void SubtractionIntegrationTest() {
+
+        ViewInteraction appCompatButton9 = onView(
+                allOf(withId(R.id.button9), withText("9"), isDisplayed()));
+        appCompatButton9.perform(click());
+
+        ViewInteraction appCompatButton7 = onView(
+                allOf(withId(R.id.button7), withText("7"), isDisplayed()));
+        appCompatButton7.perform(click());
+
+
+        ViewInteraction appCompatButtonAdd = onView(
+                allOf(withId(R.id.buttonminus), withText("-"), isDisplayed()));
+        appCompatButtonAdd.perform(click());
+
+        ViewInteraction appCompatButton8 = onView(
+                allOf(withId(R.id.button8), withText("8"), isDisplayed()));
+        appCompatButton8.perform(click());
+
 
         ViewInteraction appCompatButton2 = onView(
                 allOf(withId(R.id.button2), withText("2"), isDisplayed()));
         appCompatButton2.perform(click());
 
-
-        ViewInteraction appCompatButtonEqu = onView(
+        ViewInteraction appCompatButtonEqual = onView(
                 allOf(withId(R.id.buttonequal), withText("="), isDisplayed()));
-        appCompatButtonEqu.perform(click());
+        appCompatButtonEqual.perform(click());
 
     }
+
+    @Test
+    public void MultiplicationIntegrationTest() {
+
+
+
+        ViewInteraction appCompatButton5 = onView(
+                allOf(withId(R.id.button5), withText("5"), isDisplayed()));
+        appCompatButton5.perform(click());
+
+        ViewInteraction appCompatButton0 = onView(
+                allOf(withId(R.id.button0), withText("0"), isDisplayed()));
+        appCompatButton0.perform(click());
+
+
+        ViewInteraction appCompatButtonAdd = onView(
+                allOf(withId(R.id.buttonmultiply), withText("X"), isDisplayed()));
+        appCompatButtonAdd.perform(click());
+
+
+
+        ViewInteraction appCompatButton2 = onView(
+                allOf(withId(R.id.button2), withText("2"), isDisplayed()));
+        appCompatButton2.perform(click());
+
+        ViewInteraction appCompatButtonEqual = onView(
+                allOf(withId(R.id.buttonequal), withText("="), isDisplayed()));
+        appCompatButtonEqual.perform(click());
+
+    }
+
 
 
 
